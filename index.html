@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+    <h1 id="title">Déli gyümölcsök</h1>
+
+    <div id="les">
+        <label for="sel">Neked melyik a kedvenced?</label> <br>
+        <select onchange="onFruitChange()" name="" id="sel" >
+             <option value="" disabled selected>Válassz...</option>
+        </select>
+    </div>
+    <div id="fruitDiv">
+        <img src="img/fruits.webp" alt="" id="baseFruitPic">
+        <div id="texts">
+            <h1 id="headText"></h1>
+            <p id="bodyText"></p>
+        </div>
+    </div>
+</body>
+</html>

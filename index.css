@@ -1,0 +1,85 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, lightgreen, rgb(107, 107, 5));
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#les {
+    padding-bottom: 20px;
+}
+
+select {
+    justify-content: flex-start;
+    padding: 10px;
+    width: 25%;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+label {
+    padding-right: 290px;
+    color: darkgreen;
+}
+
+#baseFruitPic {
+    border-radius: 20px;
+}
+
+#fruitPic {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#title {
+    color: darkgreen;
+    padding: 20px;
+}
+
+#fruitDiv {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+#textsc {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 400px;
+    display: table-caption;
+    display: -ms-grid;
+    -ms-grid-columns: min-content;
+}
+
+#headText, #bodyText {
+    margin: 25px;
+}
+
+#headText {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    #fruitDiv {
+        display: block;
+        padding-left: 55px;
+    }
+    #fruitPic {
+        border-bottom-left-radius: 0%;
+    }
+    #textsc {
+        border-top-right-radius: 0%;
+        width: 500px;
+    }
+    select {
+        width: 50%;
+    }
+    label {
+        padding-right: 110px;
+    }
+    img {
+        width: 500px;
+    }
+}
