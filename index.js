@@ -15,5 +15,7 @@ const onFruitChange = () => {
     document.getElementById("fruitPic").src = "./img/" + fruit.image;
     document.getElementById("headText").innerText = fruit.name;
     document.getElementById("bodyText").innerText = fruit.descr;
-    document.getElementById("texts").id = "textsc"
+    if (document.getElementById("texts")) {
+        document.getElementById("texts").id = "textsc"
+    }
 }
