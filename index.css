@@ -68,9 +68,11 @@ label {
     }
     #fruitPic {
         border-bottom-left-radius: 0%;
+        border-top-right-radius: 20px;
     }
     #textsc {
         border-top-right-radius: 0%;
+        border-bottom-left-radius: 20px;
         width: 500px;
     }
     select {
