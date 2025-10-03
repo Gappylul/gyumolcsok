@@ -1,5 +1,3 @@
-import fruits from './data_fruits.js'
-
 console.log(fruits);
 
 fruits.map((fruit) => {
@@ -8,7 +6,7 @@ fruits.map((fruit) => {
     `;
 })
 
-window.onFruitChange = () => {
+const onFruitChange = () => {
     let selectedFruit = document.getElementById("sel").value;
     let fruit = fruits.find((fru) => fru.id == selectedFruit);
     if (document.querySelector("img").id == "baseFruitPic") {

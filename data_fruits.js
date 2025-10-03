@@ -47,5 +47,3 @@ const fruits = [
         Európába csak a 19. században kezdték beszállítani.`,
   },
 ];
-
-export default fruits;
